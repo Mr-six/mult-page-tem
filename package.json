@@ -1,0 +1,33 @@
+{
+  "name": "yingdong",
+  "version": "0.0.1",
+  "description": "gulp muiltpage",
+  "main": "index.js",
+  "author": "mrsix",
+  "license": "MIT",
+  "scripts": {
+    "dev": "gulp",
+    "clean": "gulp clean",
+    "server": "egg-scripts start --daemon",
+    "stop": "egg-scripts stop"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babelify": "^8.0.0",
+    "browserify": "^16.1.0",
+    "del": "^3.0.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "node-sass": "^4.7.2",
+    "pump": "^3.0.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  }
+}
